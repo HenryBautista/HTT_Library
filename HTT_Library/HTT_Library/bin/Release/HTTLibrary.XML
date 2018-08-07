@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HTTLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:HTT_Library.Agents.DBAgent.#ctor(System.String,System.String)">
+            <summary>
+            Inicializa al agente
+            </summary>
+            <param name="Chain">Cadena de coexion</param>
+            <param name="Query">Texto consulta</param>
+        </member>
+        <member name="M:HTT_Library.Agents.DBAgent.AddParameter(System.String,System.Object)">
+            <summary>
+            Agrega un parametro a la lista de parametros
+            </summary>
+            <param name="Name"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:HTT_Library.Agents.IFXAgent.Execute">
+            <summary>
+            Ejecuta la consulta en la base de datos Informix
+            </summary>
+            <returns>"success" = consulta completada, en otro caso se envia en mensaje de error</returns>
+        </member>
+        <member name="M:HTT_Library.Agents.MSAgent.Execute">
+            <summary>
+            Ejecuta la consulta de tipo MSSQL
+            </summary>
+            <returns>reportan "success" ejecuacion completada, en otro caso devuelve el error</returns>
+        </member>
+        <member name="M:HTT_Library.Agents.MSAgent.ExecuteBulk">
+            <summary>
+            EJECUTA CARGA DE DATOS MASIVA 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HTT_Library.Agents.MSAgent.AddParameter(System.String,System.Object)">
+            <summary>
+            Agrega un parametro a la lista de parametros
+            </summary>
+            <param name="Name"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:HTT_Library.Agents.MSAgent.AddOuterParameter(System.String,System.Data.SqlDbType,System.Int32)">
+            <summary>
+            agrega un nuevo parametro de salidad a la lista de parametros de salida
+            </summary>
+            <param name="Name"></param>
+            <param name="Type"></param>
+        </member>
+        <member name="M:HTT_Library.Agents.MSAgent.Clear">
+            <summary>
+            RESETEA TODOS LOS ATRIBUTOS DEL AGENTE
+            </summary>
+        </member>
+        <member name="M:HTT_Library.Agents.MyAgent.Execute">
+            <summary>
+            Ejecuta la consulta de tipo Mysql
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HTT_Library.Services.MSSQL.Services.AgentServices.ListenBulkAgent(HTT_Library.Agents.MSAgent)">
+            <summary>
+            ATIENDE AL AGENTE PARA UNA CARGA MASIVA DE DATOS
+            </summary>
+            <param name="Agent"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

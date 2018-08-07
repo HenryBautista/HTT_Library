@@ -1,0 +1,13 @@
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\HTT_Library.XML
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\IBM.Data.Informix.dll
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\MySql.Data.dll
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\ActiproSoftware.Wizard.dll
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\Newtonsoft.Json.pdb
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\HTTLibrary.exe.config
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\HTTLibrary.exe
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\bin\x64\Debug\HTTLibrary.pdb
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\obj\x64\Debug\HTTLibrary.exe
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\obj\x64\Debug\HTTLibrary.pdb
+C:\Users\hbautista\Documents\Visual Studio 2012\Projects\HTT_Library\HTT_Library\obj\x64\Debug\HTT_Library.csprojResolveAssemblyReference.cache

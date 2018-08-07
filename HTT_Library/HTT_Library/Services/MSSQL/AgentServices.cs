@@ -1,18 +1,16 @@
 ﻿using HTT_Library.Agents;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
+
 //using System.Threading.Tasks;
 using HTT_Library.Models;
 using HTT_Library.Utilities;
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
 namespace HTT_Library.Services.MSSQL.Services
 {
     public static class AgentServices
     {
-
         internal static DataTable ListenAgent(MSAgent Agent)
         {
             SqlCommand command = new SqlCommand();
@@ -41,7 +39,6 @@ namespace HTT_Library.Services.MSSQL.Services
 
                     command.Parameters[o_par.name].Direction = ParameterDirection.Output;
                 }
-
             }
             DataTable result;
 
@@ -58,7 +55,6 @@ namespace HTT_Library.Services.MSSQL.Services
             return result;
         }
 
-
         /// <summary>
         /// ATIENDE AL AGENTE PARA UNA CARGA MASIVA DE DATOS
         /// </summary>
@@ -74,7 +70,7 @@ namespace HTT_Library.Services.MSSQL.Services
             transac = con.BeginTransaction();
             try
             {
-                SqlBulkCopy sqlbulkcopy = new SqlBulkCopy(con,SqlBulkCopyOptions.Default,transac);
+                SqlBulkCopy sqlbulkcopy = new SqlBulkCopy(con, SqlBulkCopyOptions.Default, transac);
                 sqlbulkcopy.DestinationTableName = Agent.bulk_name;
                 sqlbulkcopy.WriteToServer(Agent.bulk_table);
                 transac.Commit();
